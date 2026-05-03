@@ -1,0 +1,73 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Radionavahi-LOD: a Linked Open Data micro-graph of Iranian regional and ritual
+musics.
+
+Copyright (c) 2026 Radionavahi-LOD contributors.
+
+This work is licensed under the Creative Commons Attribution 4.0 International
+License. To view a copy of this license, visit:
+
+    https://creativecommons.org/licenses/by/4.0/
+
+Or send a letter to:
+
+    Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+================================================================================
+SUMMARY (NOT A SUBSTITUTE FOR THE FULL LICENSE)
+================================================================================
+
+YOU ARE FREE TO:
+
+  Share — copy and redistribute the material in any medium or format.
+
+  Adapt — remix, transform, and build upon the material for any purpose,
+          including commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the license
+terms.
+
+UNDER THE FOLLOWING TERMS:
+
+  Attribution — You must give appropriate credit, provide a link to the
+                license, and indicate if changes were made. You may do so in
+                any reasonable manner, but not in any way that suggests the
+                licensor endorses you or your use.
+
+  No additional restrictions — You may not apply legal terms or technological
+                measures that legally restrict others from doing anything the
+                license permits.
+
+NOTICES:
+
+  You do not have to comply with the license for elements of the material in
+  the public domain or where your use is permitted by an applicable exception
+  or limitation.
+
+  No warranties are given. The license may not give you all of the permissions
+  necessary for your intended use. For example, other rights such as publicity,
+  privacy, or moral rights may limit how you use the material.
+
+================================================================================
+SUGGESTED CITATION
+================================================================================
+
+If you use this graph in academic work, please cite as:
+
+  Radionavahi-LOD: a Linked Open Data micro-graph of Iranian regional and
+  ritual musics. Version 2.0, 2026.
+  Available at https://github.com/radionavahi/Radionavahi-LOD
+
+================================================================================
+EXTERNAL REFERENCES
+================================================================================
+
+This work includes rdfs:seeAlso references to external authority files. Those
+external resources are governed by their respective licenses:
+
+  Wikidata entities (http://www.wikidata.org/entity/...) — CC0 1.0 Universal
+  GeoNames entries (https://www.geonames.org/...) — CC BY 4.0
+
+The references themselves (the URIs) are factual cross-references and are not
+subject to copyright.
