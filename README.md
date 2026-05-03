@@ -120,7 +120,7 @@ The graph integrates with the wider LOD Cloud via lightweight `rdfs:seeAlso` cro
 
 ### Query with SPARQL
 
-The graph can be loaded into any SPARQL-capable triplestore (Apache Jena Fuseki, GraphDB, Blazegraph, Stardog). Once loaded, queries like the following become possible:
+The graph can be loaded into any SPARQL-capable triplestore. Once loaded, queries like the following become possible:
 
 ```sparql
 PREFIX test: <http://www.radionavahi.org/ontology/test#>
