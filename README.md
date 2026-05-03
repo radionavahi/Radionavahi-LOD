@@ -9,7 +9,7 @@
 
 This repository hosts the **Radionavahi micro-graph**, a curated conceptual knowledge graph that represents the universe of Iranian regional musics, instruments, ritual contexts, performers, and ethnic groups documented in the Radionavahi archive. It is designed to demonstrate the transition from a document-based archive (a WordPress site of audio recordings, metadata, and tags) to a Linked Open Data resource that participates in the wider semantic web.
 
-The model follows the methodological principles of cultural-heritage knowledge engineering projects such as [ACUSTEME](http://ontology.acusteme.org/](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm):
+The model follows the methodological principles of cultural-heritage knowledge engineering projects such as [ACUSTEME](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm):
 
 - **Preserve emic categories.** Regional repertoires, ritual contexts, and indigenous instrument names are kept in their culture-specific forms rather than collapsed into generic Western analogues.
 - **Maintain semantic interoperability.** Every reconciled entity carries `rdfs:seeAlso` links to authority files (Wikidata, GeoNames) so the graph can participate in federated SPARQL queries across the LOD Cloud.
