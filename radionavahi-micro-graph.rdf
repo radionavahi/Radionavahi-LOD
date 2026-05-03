@@ -15,14 +15,14 @@
      xmlns:test="http://www.radionavahi.org/ontology/test#">
 
     <owl:Ontology rdf:about="http://www.radionavahi.org/ontology/test">
-        <dct:title xml:lang="en">Radionavahi Micro-graph: a Linked Open Data model of Iranian regional and ritual musics</dct:title>
+        <dct:title xml:lang="en">A Linked Open Data model of Iranian regional and ritual music</dct:title>
         <dct:title xml:lang="fa">میکروگراف رادیونواحی</dct:title>
-        <rdfs:label xml:lang="en">Radionavahi Micro-graph</rdfs:label>
+        <rdfs:label xml:lang="en">Radionavahi LOD Micro-graph</rdfs:label>
         <rdfs:label xml:lang="fa">میکروگراف رادیونواحی</rdfs:label>
 
-        <dct:description xml:lang="en">The Radionavahi Micro-graph is a curated conceptual knowledge graph that represents the universe of Iranian regional musics, instruments, ritual contexts, performers, and ethnic groups documented in the Radionavahi archive (https://radionavahi.com). It demonstrates the methodological transition from a document-based archive to a Linked Open Data resource that participates in the wider semantic web. The model follows ACUSTEME-like principles: it preserves emic categories, maintains semantic interoperability with external knowledge bases (Wikidata, GeoNames) via lightweight rdfs:seeAlso links, and avoids over-complex ontology design. The graph contains 14 classes (5 top-level plus 9 sub-classes), 11 object properties, 3 datatype properties, 73 named individuals, and 264 object-property assertions.</dct:description>
-        <dct:abstract xml:lang="en">A curated conceptual knowledge graph of Iranian regional and ritual musics, derived from the Radionavahi archive and aligned with ACUSTEME-like methodological principles. Designed for visualization in Protégé and WebVOWL; serves as a Linked Open Data demonstrator for ethnomusicological data modeling.</dct:abstract>
-        <rdfs:comment xml:lang="en">Radionavahi Micro-graph version 2.1, schema-enriched. A Linked Open Data demonstrator for Iranian ethnomusicological data.</rdfs:comment>
+        <dct:description xml:lang="en">The Radionavahi Micro-graph is a curated conceptual knowledge graph that represents the universe of Iranian regional musics, instruments, ritual contexts, performers, and ethnic groups documented in the Radionavahi archive (https://radionavahi.com). It demonstrates the methodological transition from a document-based archive to a Linked Open Data resource that participates in the wider semantic web. The model follows ACUSTEME principles as a reference: it preserves emic categories, maintains semantic interoperability with external knowledge bases (Wikidata, GeoNames) via lightweight rdfs:seeAlso links, and avoids over-complex ontology design.</dct:description>
+        <dct:abstract xml:lang="en">A curated conceptual knowledge graph of Iranian regional and ritual musics, derived from the Radionavahi archive and aligned with ACUSTEME methodological principles. Designed for visualization in Protégé and WebVOWL; serves as a Linked Open Data demonstrator for ethnomusicological data modeling.</dct:abstract>
+        <rdfs:comment xml:lang="en">A Linked Open Data demonstrator for Iranian ethnomusicological data.</rdfs:comment>
 
         <dct:creator>
             <foaf:Person>
@@ -30,25 +30,25 @@
                 <foaf:homepage rdf:resource="https://radionavahi.com"/>
             </foaf:Person>
         </dct:creator>
-        <dct:contributor>Radionavahi-LOD project contributors</dct:contributor>
+        <dct:contributor>Hossein Ebrahimi</dct:contributor>
         <dct:publisher>Radionavahi</dct:publisher>
 
         <owl:versionInfo>2.1.0</owl:versionInfo>
         <owl:versionIRI rdf:resource="http://www.radionavahi.org/ontology/test/2.1.0"/>
         <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/published"/>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-30</dct:issued>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-03</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026</dct:modified>
 
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dct:rights xml:lang="en">Released under the Creative Commons Attribution 4.0 International License (CC BY 4.0). External authority-file references retain their respective licenses (Wikidata: CC0; GeoNames: CC BY 4.0).</dct:rights>
+        <dct:rights xml:lang="en"></dct:rights>
 
         <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://www.radionavahi.org/ontology/test#</vann:preferredNamespaceUri>
 
         <dct:source rdf:resource="https://radionavahi.com"/>
         <rdfs:seeAlso rdf:resource="https://github.com/radionavahi/Radionavahi-LOD"/>
-        <rdfs:seeAlso rdf:resource="http://ontology.acusteme.org/"/>
+        <rdfs:seeAlso rdf:resource="https://ontology.acusteme.org/EN/LODEen_files/extracten.htm"/>
         <foaf:homepage rdf:resource="https://github.com/radionavahi/Radionavahi-LOD"/>
 
         <dc:language>en</dc:language>
