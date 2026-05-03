@@ -172,7 +172,7 @@ External authority-file references (Wikidata QIDs, GeoNames IDs) are governed by
 This graph builds on:
 
 - The [Radionavahi](https://radionavahi.com) archive, the source of the underlying audio metadata.
-- The [ACUSTEME ontology]([http://ontology.acusteme.org/](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm)) by the CNRS Centre for Research on the Anthropology of Music, which informed the class-design methodology.
+- The [ACUSTEME ontology](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm/) by the CNRS Centre for Research on the Anthropology of Music, which informed the class-design methodology.
 - [Wikidata](https://www.wikidata.org) and [GeoNames](https://www.geonames.org), which provide the authority-file references that link this graph to the wider LOD Cloud.
 
 ## Status
