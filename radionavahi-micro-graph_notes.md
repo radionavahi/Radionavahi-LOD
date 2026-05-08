@@ -1,4 +1,4 @@
-# Radionavahi micro-graph v2 — schema enrichment summary
+# Radionavahi micro-graph — schema enrichment summary
 
 **File:** `radionavahi-micro-v2.rdf`  
 **Predecessor:** `radionavahi-micro.rdf` (v1)  
