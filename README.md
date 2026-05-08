@@ -147,32 +147,19 @@ A small collection of example SPARQL queries will be added under `examples/` in 
 The graph was produced by a four-stage pipeline applied to the Radionavahi WordPress export (505 items, 82 audio recordings, ~700 raw taxonomy terms):
 
 1. **Audit & normalization** — resolved 638 percent-encoded slugs, 9 ZWNJ duplicates, 116 cross-taxonomy collisions, 23 unused tags, and 3 526 illegal XML control characters; re-projected all terms onto a 6-domain ethnomusicological ontology.
-2. **ACUSTEME alignment** — mapped each canonical term to its ACUSTEME 1.0 class equivalent and serialized the full archive as RDF/Turtle (557 subjects).
+2. **ACUSTEME alignment** — mapped each canonical term to its ACUSTEME 1.0 class equivalent and serialized the archive as RDF/Turtle (557 subjects).
 3. **Reconciliation** — resolved 50 representative entities to Wikidata QIDs and GeoNames numeric IDs (62% Wikidata match rate; 100% for regions and ethnic groups).
 4. **Micro-graph curation** — selected 73 individuals across 14 classes, derived ~120 corpus-attested co-occurrence assertions, supplemented with ~150 culturally-defensible domain-knowledge enrichments, and serialized as a Protégé-clean RDF/XML file (this repository).
 
 For the full methodology, see [`docs/methodology.md`](docs/methodology.md).
 
-## Citation
-
-If you use this graph in academic work, please cite as:
-
-> Radionavahi-LOD: a Linked Open Data micro-graph of Iranian regional and ritual musics. Version 2.0, 2026. Available at https://github.com/radionavahi/Radionavahi-LOD
-
-A more formal citation will be added when the associated thesis is published.
-
-## License
-
-The data and schema in this repository are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. You are free to share and adapt the material for any purpose, including commercially, as long as you provide appropriate credit. See [`LICENSE`](LICENSE) for the full terms.
-
-External authority-file references (Wikidata QIDs, GeoNames IDs) are governed by their respective sources' licenses (CC0 for Wikidata, CC BY 4.0 for GeoNames).
 
 ## Acknowledgements
 
 This graph builds on:
 
 - The [Radionavahi](https://radionavahi.com) archive, the source of the underlying audio metadata.
-- The [ACUSTEME ontology](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm) by the CNRS Centre for Research on the Anthropology of Music, which informed the class-design methodology.
+- The [ACUSTEME ontology](https://ontology.acusteme.org/EN/LODEen_files/extracten.htm) by the Università di Torino for Research on the Anthropology of Music, which informed the class-design methodology.
 - [Wikidata](https://www.wikidata.org) and [GeoNames](https://www.geonames.org), which provide the authority-file references that link this graph to the wider LOD Cloud.
 
 ## Status
@@ -180,5 +167,6 @@ This graph builds on:
 **Version 1.0** (current). Schema-enriched, with sub-class hierarchies and 11 object properties.
 
 Future work (Phase B) will introduce a `Recording` or `MusicalWork` class to model individual audio items as first-class entities, extending the graph from a vocabulary-cum-gazetteer into a full archival catalogue.
-## Thank You!
-## Hossein Ebrahimi
+
+Thank You!
+Hossein Ebrahimi
