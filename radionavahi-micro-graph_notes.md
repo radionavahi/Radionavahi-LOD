@@ -2,7 +2,7 @@
 
 **File:** `radionavahi-micro-v2.rdf`  
 **Predecessor:** `radionavahi-micro.rdf` (v1)  
-**Methodology:** Phase A of the scaling plan — schema enrichment + entity expansion from existing corpus, no new external data needed.
+**Methodology:** Phase A of the scaling plan — schema enrichment + entity expansion from existing corpus.
 
 ## Statistics comparison (WebVOWL panel)
 
